@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>04 Traversing in CSS</title>
+
+    <style>
+        section > ul li:nth-child(2) {
+            color: red;
+        }
+
+        section > ol > li > ul > li:nth-child(2){
+            color: blue;
+        }
+
+        section > ol li:nth-child(2) > ul li:nth-child(5) > ul{
+            color: hotpink;
+        }
+
+    </style>
+</head>
+<body>
+
+<main>
+    <section>
+        <h1>Weclome</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cupiditate neque odio veritatis! Ab
+            accusamus blanditiis consequuntur enim est laboriosam, nobis nostrum omnis ut? Adipisci ipsa repellendus
+            sapiente. Aliquam assumenda commodi consequatur dolores ducimus earum fugit, hic ipsa magni nam nihil nostrum
+            provident quam repellat repellendus saepe sit tempore voluptate.
+        </p>
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cupiditate neque odio veritatis! Ab
+                accusamus blanditiis consequuntur enim est laboriosam, nobis nostrum omnis ut? Adipisci ipsa repellendus
+                sapiente. Aliquam assumenda commodi consequatur dolores ducimus earum fugit, hic ipsa magni nam nihil nostrum
+                provident quam repellat repellendus saepe sit tempore voluptate.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi cupiditate neque odio veritatis! Ab
+                accusamus blanditiis consequuntur enim est laboriosam, nobis nostrum omnis ut? Adipisci ipsa repellendus
+                sapiente. Aliquam assumenda commodi consequatur dolores ducimus earum fugit, hic ipsa magni nam nihil nostrum
+                provident quam repellat repellendus saepe sit tempore voluptate.
+            </p>
+        </article>
+    </section>
+</main>
+<section>
+    <h2>Tech Stack No 01</h2>
+    <ol>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>C#</li>
+    </ol>
+
+    <h2>Tech Stack No 02</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, libero?
+    </p>
+    <ol>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>C#</li>
+    </ol>
+
+    <h2>Tech Stack No 03</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, libero?
+    </p>
+    <ul>
+        <li>Java</li>
+        <li>Python: important</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>C#</li>
+    </ul>
+
+    <h2>Tech Stack No 04</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, libero?
+    </p>
+    <ol>
+        <li>Java</li>
+        <li>
+            <h3>Python</h3>
+            <ul>
+                <li>Python Module 01</li>
+                <li>Python Module 02</li>
+                <li>Python Module 03</li>
+                <li>
+                    Python Module 04
+                    <ol>
+                        <li>Test 01</li>
+                        <li>Test 02</li>
+                        <li>Test 03</li>
+                        <li>Test 04</li>
+                    </ol>
+                </li>
+                <li>
+                    Python Module 05
+                    <ol>
+                        <li>Test 01</li>
+                        <li>Test 02</li>
+                        <li>Test 03</li>
+                        <li>Test 04</li>
+                    </ol>
+                    <ul>
+                        <li>Test 100</li>
+                        <li>Test 200</li>
+                        <li>Test 300</li>
+                        <li>Test 400</li>
+                    </ul>
+                </li>
+                <li>
+                    Python Module 05
+                    <ol>
+                        <li>Test 01</li>
+                        <li>Test 02</li>
+                        <li>Test 03</li>
+                        <li>Test 04</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>C</li>
+        <li>C++</li>
+        <li>C#</li>
+    </ol>
+</section>
+
+</body>
+</html>

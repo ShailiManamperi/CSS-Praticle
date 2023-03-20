@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attribute selectors</title>
+
+    <style>
+        /*--Attribute selector with value--*/
+        a[href = "htpsp://vimeo.com"]{color: orange;}
+        /*--Attribute selector with a starting value--*/
+        a[href ^= "https"]{color: red;}
+        /*--Attribute selector with a ending value--*/
+        a[href $=".lk"]{color : purple;}
+        /*--Attribute selector with a given value snippt--*/
+        a[class *= "guide"]{color: blue;}
+        /*--Attribute selector with a given word--*/
+        a[href ~= "verify"]{color: darkgrey;}
+        /*--Attribute selector with type selector--*/
+        h1[class = "MyH1"]{color: purple;}
+        /*--Attribute selector with class selector--*/
+        p[class = "para1"]{color: cornflowerblue;}
+    </style>
+</head>
+<body>
+    <main>
+        <h1 class="MyH1">Welcome to Module</h1>
+        <p class="para1">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid autem blanditiis eligendi enim
+            in iusto libero natus nemo odit quaerat rem reprehenderit sequi soluta totam, voluptas? Aliquid
+            quasi sed unde?
+        </p>
+        <a href="htps://yahoo.lk">Go to Yahoo</a>
+        <br><br>
+        <a href="htpsp://vimeo.com">Go to Vimeo</a>
+        <br><br>
+        <a href="https://talentlankatape.com" >Go to Talent Lanka Tape</a>
+        <br><br>
+        <a href="htps://google.com" class="guide">Go to Google</a>
+        <br><br>
+        <a href="htps://youtube.com" class="guide">Go to youtube</a>
+        <br><br>
+        <a href="htps://github.com verify" >Go to Github</a>
+    </main>
+</body>
+</html>

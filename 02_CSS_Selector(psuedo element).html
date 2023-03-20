@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>psuedo_element_selector</title>
+    <style>
+        /*Uncomment on by one and try out these selectors*/
+        /*add a content before the current content and style it
+        h1::before{
+            content: "✨ Topic : ";
+        }
+        add a content after the current content and style it
+        h1::after{
+            content: " - Guide ";
+        }*/
+
+        /*---add style to the first letter---
+        p::first-letter{
+            color: yellow;
+            font-size: 30px;
+        }*/
+
+        /*p::first-line{
+            color: red;
+        }
+
+        [type="password"]::placeholder{
+            color: darkturquoise;
+            font-weight: bold;
+        }
+
+        ::file-selector-button{
+            background-color: darkturquoise;
+            cursor: pointer;
+        }*/
+
+        /*::file-selector-button:hover{
+            background-color: chocolate;
+        }*/
+
+        /*::selection{
+            color: yellow;
+        }*/
+
+        /*::marker{*/
+        /*    content: "🐱‍🐉";*/
+        /*}*/
+
+        /*li:hover::marker{*/
+        /*    content: "🐱‍🐉";*/
+        /*}*/
+
+        /*li:first-child::marker{
+            content: "🐱‍🐉";
+        }*/
+    </style>
+</head>
+<body>
+<h1 id="firstH1">welcome to html</h1>
+
+<h2>hello</h2>
+<h3>hi</h3>
+<h4>how are you</h4>
+
+<p class="paragraph01">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam corporis delectus, dicta dolores dolorum
+    harum iste molestiae, neque nostrum odit officiis, quasi quo rerum similique suscipit velit voluptates.</p>
+
+<h1>welcome to module</h1>
+<p class="paragraph02">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam corporis delectus, dicta dolores dolorum
+    harum iste molestiae, neque nostrum odit officiis, quasi quo rerum similique suscipit velit voluptates.</p>
+
+<h1 class="paragraph01">welcome to css</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam corporis delectus, dicta dolores dolorum
+    harum iste molestiae, neque nostrum odit officiis, quasi quo rerum similique suscipit velit voluptates.</p>
+
+<h1 class="helloclass">welcome to java</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam corporis delectus, dicta dolores dolorum
+    harum iste molestiae, neque nostrum odit officiis, quasi quo rerum similique suscipit velit voluptates.</p>
+
+
+<a href="https://yahoo.com" class="helloclass">go to yahoo</a>
+<br><br>
+<a href="https://vimeo.com">go to viemo</a>
+<br><br>
+<a href="http://talentlankatape.org">go to talent lanka tape</a>
+<br><br>
+
+<ol>
+    <li>java</li>
+    <li>python</li>
+    <li>C</li>
+    <li>C++</li>
+    <li>C#</li>
+</ol>
+<ol>
+    <li>CSS</li>
+</ol>
+<form>
+    <input type="text" name="username" id="username" placeholder="enter usename">
+    <br><br>
+    <input type="password" name="password" id="password" placeholder="enter password">
+    <br><br>
+    <input type="button" value="submit" name="submit" id="submit">
+    <br><br>
+    <input type="file" value="choose file" name="file" id="file">
+    <br><br>
+</form>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*Uncomment on by one and try out these selectors*/
+
+        /*----1)Child Combinator- check direct chid( >)----*/
+        /*main>p{*/
+        /*    color: green;*/
+        /*    font-size: 18px;*/
+        /*}*/
+
+        /*----2)Descendant Combinator- select the child if exits anywhere inside the parent(" " space)----*/
+        /*main p{*/
+        /*    color: green;*/
+        /*    font-size: 18px;*/
+        /*}*/
+
+        /*----3)Adjacent Combinator- select the element which is located  frist after given frist element(+)----*/
+        /*h1 + ol{*/
+        /*    color: orange;*/
+        /*}*/
+
+        /*----4)General Sibling Combinator- select the element which is located after given frist element(~)----*/
+        /*li~h3{*/
+        /*    color: orange;*/
+        /*}*/
+    </style>
+</head>
+<body>
+    <main>
+    <section>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ut?</p>
+        </div>
+    </section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ut?</p>
+    <section><P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque.</p></section>
+    </main>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, ut?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque,
+    </p>
+    <h1>Hello</h1>
+    <ol>
+        <li>JAVA</li>
+        <ul>
+            <li>java script</li>
+            <li>java basic</li>
+        </ul>
+        <h3>Hello 01</h3>
+        <h3>Hello 02</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <h3>Hello 03</h3>
+        <li>PYTHON</li>
+        <li>C#</li>
+    </ol>
+    <h2>Hello</h2>
+    <ol>
+        <li>JAVA</li>
+        <li>PYTHON</li>
+        <li>C#</li>
+    </ol>
+    <h1>Hello</h1>
+    <ol>
+        <li>JAVA</li>
+        <li>PYTHON</li>
+        <li>C#</li>
+    </ol>
+    <h1>Hello</h1>
+    <ul>
+        <li>JAVA</li>
+        <li>PYTHON</li>
+        <li>C#</li>
+    </ul>
+</body>
+</html>

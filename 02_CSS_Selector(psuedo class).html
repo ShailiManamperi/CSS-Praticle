@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>psuedo_class_selector</title>
+    <style>
+        /*Uncomment on by one and try out these selectors*/
+
+        /*Apply style when you drag the mouse to the elemet*/
+        /*h1:hover{
+            color: red;
+        }*/
+
+        /*Apply style when click on the element
+        h1:active{
+            color: greenyellow;
+        }*/
+
+        /*apply styles when alredy visited to links
+        a:visited{
+            color: orange;
+        }*/
+
+        /*apply styles to non visited links
+        a:link{
+            color: hotpink;
+        }*/
+
+        /*--apply style when focus to the elemet--
+        :focus{
+            background-color: green;
+        }
+
+        input:focus{
+            background-color: green;
+        }*/
+
+        /*---select specific element according to the tree-structure(elemet location)---*/
+
+        /*h1:first-child{
+            color: red;
+        }*/
+
+        /*----cant use these for like this tags it has specific tangs like orderd lists---
+        li:first-child{
+            color: hotpink;
+        }
+
+        li:last-child{
+            color: orange;
+        }
+
+        li:nth-child(3){
+            color: purple;
+        }*/
+
+        /*-----can use psuedo selectors for like H1 tags------
+        h1:last-child{
+            color: greenyellow;
+        }
+
+        h1:nth-child(2){
+            color: greenyellow;
+        }
+        */
+
+        /*----select element from the bottom of the list----
+        li:nth-last-child(2){
+            color: yellow;
+        }*/
+
+        /*when there is only one child in a list we can apply this
+        li:only-child{
+            color: cornflowerblue;
+        }*/
+    </style>
+</head>
+<body>
+<h1 id="firstH1">welcome to html</h1>
+
+<h2>hello</h2>
+<h3>hi</h3>
+<h4>how are you</h4>
+
+<p class="paragraph01">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam corporis delectus, dicta dolores dolorum
+    harum iste molestiae, neque nostrum odit officiis, quasi quo rerum similique suscipit velit voluptates.</p>
+
+<h1>welcome to module</h1>
+<p class="paragraph02">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam corporis delectus, dicta dolores dolorum
+    harum iste molestiae, neque nostrum odit officiis, quasi quo rerum similique suscipit velit voluptates.</p>
+
+<h1 class="paragraph01">welcome to css</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam corporis delectus, dicta dolores dolorum
+    harum iste molestiae, neque nostrum odit officiis, quasi quo rerum similique suscipit velit voluptates.</p>
+
+<h1 class="helloclass">welcome to java</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad aliquam corporis delectus, dicta dolores dolorum
+    harum iste molestiae, neque nostrum odit officiis, quasi quo rerum similique suscipit velit voluptates.</p>
+
+
+<a href="https://yahoo.com" class="helloclass">go to yahoo</a>
+<br><br>
+<a href="https://vimeo.com">go to viemo</a>
+<br><br>
+<a href="http://talentlankatape.org">go to talent lanka tape</a>
+<br><br>
+
+<ol>
+    <li>java</li>
+    <li>python</li>
+    <li>C</li>
+    <li>C++</li>
+    <li>C#</li>
+</ol>
+
+<ol>
+    <li>CSS</li>
+</ol>
+</body>
+</html>
